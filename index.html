@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MERN Full Stack Training</title>
+
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+            background-image: url("images/bg-1.png");
+            background-color: burlywood;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        header {
+            height: 100px;
+            /*background-color: #2f80ed;*/
+            position: relative;
+/*            background-color: rgba(249, 249, 249, 0.95);*/
+        }
+
+        .top-left {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            text-align: center;
+            line-height: 100px;
+            color: navy;
+        }
+
+        main {
+            flex: 1;
+            padding: 20px;
+/*            background-color: rgba(249, 249, 249, 0.95);*/
+        }
+
+        table {
+            /*width: 60%;*/
+            border-collapse: collapse;
+            background-color: #ffffff;
+        }
+
+        th {
+            background-color: #2f80ed;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background-color: #eef2f7;
+        }
+
+        footer {
+            background-color: #2f80ed;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+        }
+
+            footer a {
+                color: #ffffff;
+                text-decoration: none;
+            }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="mern.jpg" alt="MERN Logo" width="150" height="60" class="top-left">
+        <h1>MERN Full Stack Training</h1>
+        <img src="Ethnus-Logo-1.jpg" alt="Ethnus Logo" width="50" height="60" class="top-right">
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Left to Right -->
+        <marquee direction="right">
+            <h2>Training Schedule</h2>
+            <ol>
+                <li>HTML & CSS – 2 Weeks</li>
+                <li>JavaScript – 3 Weeks</li>
+                <li>React.js – 4 Weeks</li>
+                <li>Node.js & Express.js – 4 Weeks</li>
+                <li>MongoDB – 3 Weeks</li>
+                <li>Project Work – 1 Week</li>
+            </ol>
+        </marquee>
+        <!-- Right to Left -->
+        <marquee direction="left">
+            <h2>Training Calendar</h2>
+
+
+            <table>
+                <tr>
+                    <th>CLASS</th>
+                    <th>Day</th>
+                    <th>Timing</th>
+                    <th>Mode</th>
+                </tr>
+                <tr>
+                    <td>MERN</td>
+                    <td>Friday</td>
+                    <td>6:00 PM to 8:00 PM</td>
+                    <td>Online</td>
+                </tr>
+                <tr>
+                    <td>MERN</td>
+                    <td>Saturday</td>
+                    <td>6:00 PM to 8:00 PM</td>
+                    <td>Online</td>
+                </tr>
+            </table>
+        </marquee>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <address>
+            Visit us at: <a href="https://www.ethnus.com" target="_blank"> www.ethnus.com</a><br>
+            Phone: +91-80999 88877, Bangalore – 560076<br>
+            &copy; 2024 Ethnus Solutions Pvt Ltd. All Rights Reserved.
+        </address>
+    </footer>
+
+</body>
+</html>
